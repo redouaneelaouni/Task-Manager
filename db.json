@@ -1,0 +1,8 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Prepare React interview", "priority": "HIGH", "status": "TODO" },
+    { "id": 2, "title": "Review React Hooks", "priority": "MEDIUM", "status": "DONE" },
+    { "id": 3, "title": "Configure Redux Store", "priority": "HIGH", "status": "TODO" },
+    { "id": 4, "title": "Test Axios API calls", "priority": "LOW", "status": "TODO" }
+  ]
+}

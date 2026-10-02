@@ -1,0 +1,30 @@
+{
+  "name": "task-manager",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "api": "json-server --watch db.json --port 3001",
+    "dev": "vite",
+    "start": "concurrently \"npm:api\" \"npm:dev\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.0",
+    "axios": "^1.7.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.0",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "concurrently": "^8.2.0",
+    "jsdom": "^24.0.0",
+    "json-server": "0.17.4",
+    "vite": "^5.4.0",
+    "vitest": "^2.0.0"
+  }
+}
